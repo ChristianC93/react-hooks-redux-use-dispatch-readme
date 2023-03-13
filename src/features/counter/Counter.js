@@ -10,7 +10,7 @@ function Counter() {
 
   function handleOnClick() {
     // dispatching an action on click
-    dispatch({ type: "count/increment" });
+    dispatch(incrementCount());
   }
 
   return (
